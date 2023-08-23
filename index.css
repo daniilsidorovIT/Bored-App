@@ -1,0 +1,59 @@
+html {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 47.62%
+  );
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.body-response {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 176, 28, 0.2) 24.48%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  margin: 0;
+  padding-top: 115px;
+  padding-bottom: 66px;
+}
+
+.activity_text {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  padding-bottom: 94px;
+}
+
+.button_find_activity {
+  font-family: inherit;
+  color: #fff;
+  background-color: #0094ff;
+  border: none;
+
+  padding: 10px 135px;
+
+  cursor: pointer;
+}
+
+.button_find_activity:active {
+  background-color: #0471be;
+  color: #d8d8d8;
+}
